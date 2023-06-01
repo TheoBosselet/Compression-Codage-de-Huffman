@@ -1,6 +1,6 @@
 # Compression-Codage-de-Huffman
 ## Présentation 
-Projet personnel de compression de fichier sans pertes grâce à la méthode de Huffman \n
+Projet personnel de compression de fichier sans pertes grâce à la méthode de Huffman <br>
 Faire de 0 jusqu'à une interface.
 
 ## Etapes
