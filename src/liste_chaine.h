@@ -22,6 +22,7 @@ void supprimer_pile(struct Liste *liste, void **);
 void supprimer_file(struct Liste *liste, void **);
 void afficher(struct Liste *liste);
 int size_liste(Liste *liste);
+int get_freque(Liste *liste,int j);
 #endif
 
 
