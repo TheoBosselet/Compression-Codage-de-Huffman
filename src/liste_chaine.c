@@ -111,3 +111,20 @@ int size_liste(Liste *liste){
     }
     return i;
 }
+
+int get_freque(Liste *liste,int j){
+    Element *actuel;
+    int i;
+    int frequence;
+    if (liste == NULL) {
+        exit(EXIT_FAILURE);
+    }
+    actuel = liste->premier;
+    for(i=0;i<j;i++) {
+        arbre *noeud_afficher = actuel->noeud;
+        frequence = noeud_afficher->frequence;
+        actuel = actuel->suivant;
+    }
+    return frequence;
+}
+
